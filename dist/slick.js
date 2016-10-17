@@ -1,4 +1,6 @@
 'use strict';
+var $ = require('jquery');
+var slickCarousel = require('slick-carousel');
 angular.module('slick', []).directive('slick', [
   '$timeout',
   function ($timeout) {
@@ -160,3 +162,4 @@ angular.module('slick', []).directive('slick', [
     };
   }
 ]);
+module.exports='slick';
